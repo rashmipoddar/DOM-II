@@ -61,5 +61,8 @@ pickContent.addEventListener('click', () => {
   pickContent.style.backgroundColor = 'lightblue';
 })
 
+// const mainHeading = document.querySelector('.logo-heading');
+TweenMax.to('.logo-heading', 1, {x:100});
 
+TweenMax.to('.intro img', 3, {rotation:360});
 
