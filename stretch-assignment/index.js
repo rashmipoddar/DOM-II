@@ -5,6 +5,12 @@ redBlock.addEventListener('click', () => {
   console.log('The red block is being clicked');
   mainBlock.prepend(redBlock);
 });
+redBlock.addEventListener('mousemove', () => {
+  console.log('The mouse is being pressed down');
+  // setInterval(function() {
+  //   moveRight(redBlock);
+  // }, 2);
+})
 
 
 let blueBlock = document.querySelector('.block--blue');
@@ -30,3 +36,10 @@ grayBlock.addEventListener('click', () => {
   console.log('The gray block is being clicked');
   mainBlock.prepend(grayBlock);
 });
+
+function moveRight(element) { 
+  let left = 10; 
+  position = left + 10;
+  console.log('this function is being called');
+  element.style.left = position + 'px';
+}
