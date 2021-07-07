@@ -17,20 +17,30 @@ body {
 
 .block--red {
   background-color: red;
+  position: relative;
+  left: 10px;
 }
 
 .block--blue {
   background-color: blue;
+  position: relative;
+  left: 10px;
 }
 
 .block--green {
   background-color: green;
+  position: relative;
+  left: 10px;
 }
 
 .block--pink {
   background-color: pink;
+  position: relative;
+  left: 10px;
 }
 
 .block--gray {
   background-color: gray;
+  position: relative;
+  left: 10px;
 }
